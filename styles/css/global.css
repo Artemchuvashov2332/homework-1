@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  min-width: 320px;
+}
+
+*:focus {
+  outline: #000 ridge 5px;
+  border-radius: 2px;
+  z-index: 1;
+  padding: 2px;
+}
