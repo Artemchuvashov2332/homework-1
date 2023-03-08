@@ -10,38 +10,38 @@
 
 @media (min-width: 540px) {
 
-    .picture-4,
-    .picture-6 {
+    .coffee-cup,
+    .man {
         -ms-grid-column: 1;
         grid-column-start: 1;
     }
 
-    .picture-5 {
+    .doorway {
         -ms-grid-row-span: 2;
         grid-row: span 2;
     }
 }
 
 @media (min-width: 768px) {
-    .picture-1 {
+    .girl-in-a-hat {
         -ms-grid-column: 3;
         -ms-grid-column-span: 2;
         grid-column: 3/span 2;
     }
 
-    .picture-4,
-    .picture-6 {
+    .coffee-cup,
+    .man {
         -ms-grid-column: inherit;
         grid-column-start: inherit;
     }
 
-    .picture-5 {
+    .doorway {
         grid-row: inherit;
     }
 }
 
 @media (min-width: 992px) {
-    .picture-1 {
+    .girl-in-a-hat {
         grid-area: pic1;
         -ms-grid-row: 1;
         -ms-grid-row-span: 2;
@@ -49,32 +49,32 @@
         -ms-grid-column-span: 2;
     }
 
-    .picture-2 {
+    .curly-girl {
         grid-area: pic2;
         -ms-grid-row: 1;
         -ms-grid-column: 5;
     }
 
-    .picture-3 {
+    .girl-in-a-dress {
         grid-area: pic3;
         -ms-grid-row: 1;
         -ms-grid-column: 6;
     }
 
-    .picture-4 {
+    .coffee-cup {
         grid-area: pic4;
         -ms-grid-row: 3;
         -ms-grid-column: 3;
     }
 
-    .picture-5 {
+    .doorway {
         grid-area: pic5;
         -ms-grid-row: 2;
         -ms-grid-row-span: 2;
         -ms-grid-column: 5;
     }
 
-    .picture-6 {
+    .man {
         grid-area: pic6;
         -ms-grid-row: 3;
         -ms-grid-column: 6;

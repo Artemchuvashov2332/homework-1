@@ -1,44 +1,44 @@
-.color-brownBlock {
+.brown-block {
     background-color: #A6806B;
 }
 
-.color-redBlock {
+.red-block {
     background-color: #A61C1C;
 }
 
 
 @media (min-width: 540px) {
 
-    .color-redBlock,
-    .color-brownBlock {
+    .red-block,
+    .brown-block {
         display: none;
     }
 }
 
 @media (min-width: 768px) {
-    .color-brownBlock {
+    .brown-block {
         display: block;
     }
 }
 
 @media (min-width: 992px) {
-    .color-brownBlock {
+    .brown-block {
         grid-area: brownBlock;
     }
 
-    .color-redBlock {
+    .red-block {
         grid-area: redBlock;
         display: block;
     }
 }
 
 @media (min-width: 992px) {
-    .color-brownBlock {
+    .brown-block {
         -ms-grid-row: 3;
         -ms-grid-column: 4;
     }
 
-    .color-redBlock {
+    .red-block {
         -ms-grid-row: 2;
         -ms-grid-column: 6;
     }
