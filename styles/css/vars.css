@@ -1,0 +1,9 @@
+:root {
+    --small-phone: 320px;
+    --middle-phone: 540px;
+    --tablet: 768px;
+    --small-laptop: 992px;
+    --laptop-s: 1200px;
+    --laptop-l: 1536px;
+    --big-laptop: 1920px;
+}

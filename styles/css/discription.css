@@ -14,7 +14,7 @@
 
 .discription__text {
     font-weight: 300;
-    font-size: 1.125rem;
+    font-size: calc(1rem + 0.125 * ((100vw - 20rem)/(80 - 20)));
     line-height: 1.22;
     color: #F2F2F2;
     max-width: 80%;
@@ -44,10 +44,6 @@
         -ms-grid-column-span: 2;
         grid-column: 1/span 2;
     }
-
-    .discription__text {
-        max-width: 17.13rem;
-    }
 }
 
 @media (min-width: 992px) {
@@ -64,23 +60,8 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .discription__text {
-        font-size: 1.125rem;
-        max-width: 20.56rem;
-    }
-}
-
-@media (min-width: 1536px) {
-    .discription__text {
-        font-size: 1.74rem;
-        max-width: 30rem;
-    }
-}
-
 @media (min-width: 1920px) {
     .discription__text {
-        font-size: 2.18rem;
-        max-width: 37.56rem;
+        font-size: calc(1rem + 0.5 * ((100vw - 20rem)/(80 - 20)));
     }
 }

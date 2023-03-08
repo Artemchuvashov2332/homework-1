@@ -13,11 +13,12 @@
 }
 
 .title__text {
+    font-size: calc(2.5rem + 1.5 * ((100vw - 20rem) / (80 - 20)));
     font-weight: 600;
     line-height: 1.1;
     text-align: start;
     width: min-content;
-    max-width: 20.62rem;
+    max-width: 90%;
 }
 
 .title__contact-list {
@@ -69,27 +70,15 @@
         justify-content: space-evenly;
     }
 
-    .title__text {
-        font-size: 2.5rem;
-        max-width: 13rem;
-    }
-
     .title__contact-list {
         width: 28.08%;
     }
 }
 
 @media (min-width: 540px) {
-
     .title {
         min-height: 0;
     }
-
-    .title__text {
-        font-size: 2.5rem;
-        max-width: 13rem;
-    }
-
 }
 
 @media (min-width: 768px) {
@@ -103,8 +92,6 @@
     }
 
     .title__text {
-        font-size: 3.33rem;
-        max-width: 17.18rem;
         margin-top: 15.97vmin;
     }
 
@@ -129,17 +116,16 @@
 }
 
 @media (min-width: 1200px) {
-    .title__text {
-        font-size: 4rem;
-        max-width: 20.62rem;
+    .title__contact-img {
+        width: 23px;
+    }
+
+    .title__contact-list {
+        width: 27%;
     }
 }
 
 @media (min-width: 1536px) {
-    .title__text {
-        font-size: 5rem;
-        max-width: 30rem;
-    }
 
     .title__contact-img {
         width: 35px;
@@ -151,8 +137,11 @@
 }
 
 @media (min-width: 1920px) {
-    .title__text {
-        font-size: 6.25rem;
-        max-width: 37.56rem;
+    .title__contact-img {
+        width: 40px;
+    }
+
+    .title__contact-list {
+        width: 40%;
     }
 }
